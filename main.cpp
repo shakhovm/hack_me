@@ -1,7 +1,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <iostream>
-#include "include/command_checker.h"
+#include "include/commands_sender.h"
 #include "include/second_process.h"
 
 int main() {

@@ -2,16 +2,16 @@
 #include <unordered_map>
 #include "../include/encoder_decoder.h"
 #include "../include/read_write_wrapper.h"
-#include "../include/command_checker.h"
+#include "../include/commands_sender.h"
 
 void check_pswd() {
-    const std::string password = "j{iimuh~u|nrc{h";
-    const std::string keys = "kabdfp";
+    const std::string password = "m`iijrjwia";
+    const std::string keys = "lkjh";
     std::cout << "Enter password: " << std::endl;
     while (true) {
         std::string pswd;
         getline(std::cin, pswd, '\n');
-        if (pswd == encode_password(password, keys) || pswd == "123") {
+        if (pswd == encode_password(password, keys)) {
             std::cout << "Entered!" << std::endl;
             break;
         }

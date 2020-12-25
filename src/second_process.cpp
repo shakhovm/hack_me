@@ -1,8 +1,6 @@
-
-
 #include "../include/second_process.h"
 #include <iostream>
-#include "../include/first_process.h"
+#include "../include/commands_applier.h"
 #include "../include/encoder_decoder.h"
 #include "../include/read_write_wrapper.h"
 

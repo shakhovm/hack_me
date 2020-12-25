@@ -2,7 +2,8 @@
 // Created by shakhov on 24.12.20.
 //
 
-#include "../include/first_process.h"
+#include "../include/commands_applier.h"
+
 
 
 static std::unordered_map<std::string, Commads> main_commands = {
